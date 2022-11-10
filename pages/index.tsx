@@ -3,6 +3,8 @@ import Link from 'next/link';
 import dynamic from 'next/dynamic';
 import PageHead from '../components/utils/PageHead';
 import CityImg from '../assets/images/ik.png';
+import NikeImg from '../assets/images/nk.png';
+import YankariImg from '../assets/images/yankari.jpeg';
 import NavBar from '../components/blocks/NavBar';
 
 const Card = dynamic(() => import('../components/blocks/Card'));
@@ -15,32 +17,33 @@ const Home = () => {
       img: CityImg,
       resortName: 'Ikogosi Warm Spring Resort',
       resortLocation: 'Ekiti State, Nigeria',
-      resortRating: '4.8 | 67 Reviews',
+      resortRating: '4.2 | 67 Reviews',
       hasRating: true,
     },
     {
       id: 1,
-      img: CityImg,
-      resortName: 'Ikogosi Warm Spring Resort',
-      resortLocation: 'Ekiti State, Nigeria',
-      resortRating: 'No Reviews Yet',
-      hasRating: false,
+      img: NikeImg,
+      resortName: 'Nike Art Gallery',
+      resortLocation: 'Lagos State, Nigeria',
+      resortRating: '3.8 | 67 Reviews',
+      hasRating: true,
     },
     {
       id: 2,
-      img: CityImg,
-      resortName: 'Ikogosi Warm Spring Resort',
-      resortLocation: 'Ekiti State, Nigeria',
+      img: YankariImg,
+      resortName: 'Yankari Game Resort',
+      resortLocation: 'Bauchi State, Nigeria',
       resortRating: '4.8 | 67 Reviews',
       hasRating: true,
     },
     {
       id: 3,
-      img: CityImg,
+      img: NikeImg,
       resortName: 'Ikogosi Warm Spring Resort',
       resortLocation: 'Ekiti State, Nigeria',
-      resortRating: '4.8 | 67 Reviews',
-      hasRating: true,
+
+      resortRating: 'No Reviews Yet',
+      hasRating: false,
     },
   ];
 
@@ -58,18 +61,18 @@ const Home = () => {
     },
     {
       id: 1,
-      img: CityImg,
-      resortName: 'Zuma Rock Hiking',
+      img: NikeImg,
+      resortName: 'Nike Art - Sip and Paint',
       resortDescription:
-        ' Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur eius, possimus alias hic ipsa voluptatum velit aut omnis earum repellat consequatur vero enim.',
+        'Come and have fun with your friends and family this weekend. Food, games and fun activities',
       resortLocation: 'Abuja, Nigeria',
-      resortPrice: '50,000',
-      tourDate: '17th November, 2022',
-      tourAgent: 'John Doe',
+      resortPrice: '30,000',
+      tourDate: '22th November, 2022',
+      tourAgent: 'Bernard Brown',
     },
     {
       id: 2,
-      img: CityImg,
+      img: YankariImg,
       resortName: 'Zuma Rock Hiking',
       resortDescription:
         ' Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur eius, possimus alias hic ipsa voluptatum velit aut omnis earum repellat consequatur vero enim.',

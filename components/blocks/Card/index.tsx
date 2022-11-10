@@ -17,7 +17,7 @@ const Card = ({
   resortRating,
   hasRating,
 }: Props) => (
-  <div className='flex flex-col justify-between h-[450px] rounded-xl shadow-lg p-5'>
+  <div className='flex flex-col justify-between h-[450px] rounded-xl shadow-xl p-5'>
     <div className='city__image-container relative h-[70%] w-full rounded-xl grayscale-0 hover:grayscale hover:scale-105 transition ease-in-out duration-800'>
       <Image
         src={img}

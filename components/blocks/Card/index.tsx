@@ -1,5 +1,5 @@
 import Image from 'next/image';
-import { HiStar } from 'react-icons/hi';
+import { HiStar, HiOutlineStar } from 'react-icons/hi';
 import { GoLocation } from 'react-icons/go';
 
 type Props = {
@@ -7,11 +7,18 @@ type Props = {
   resortName: string;
   resortLocation: string;
   resortRating: string;
+  hasRating: boolean;
 };
 
-const Card = ({ img, resortName, resortLocation, resortRating }: Props) => (
+const Card = ({
+  img,
+  resortName,
+  resortLocation,
+  resortRating,
+  hasRating,
+}: Props) => (
   <div className='flex flex-col justify-between h-[450px] rounded-xl shadow-lg p-5'>
-    <div className='city__image-container relative h-[70%] w-full rounded-xl'>
+    <div className='city__image-container relative h-[70%] w-full rounded-xl grayscale-0 hover:grayscale hover:scale-105 transition ease-in-out duration-800'>
       <Image
         src={img}
         alt='city__image'
@@ -19,15 +26,26 @@ const Card = ({ img, resortName, resortLocation, resortRating }: Props) => (
       />
     </div>
     <div className='text-base space-y-[0.5rem] mb-2'>
-      <h3 className='font-semibold'>{resortName}</h3>
+      <h3 className='font-semibold cursor-pointer hover:text-[#36454f] hover:underline'>
+        {resortName}
+      </h3>
       <div className='flex items-center justify-start space-x-3'>
         <GoLocation size={20} />
         <p>{resortLocation}</p>
       </div>
-      <div className='review'>
-        <div className='stat__rating flex items-center justify-start space-x-2'>
-          <HiStar color='#F0A938' size={24} />
-          <p>{resortRating}</p>
+      <div className=''>
+        <div className=''>
+          {hasRating ? (
+            <div className='flex items-center justify-start space-x-2'>
+              <HiStar color='#F0A938' size={24} />
+              <p>{resortRating}</p>
+            </div>
+          ) : (
+            <div className='flex items-center justify-start space-x-2'>
+              <HiOutlineStar size={24} />
+              <p>{resortRating}</p>
+            </div>
+          )}
         </div>
       </div>
     </div>

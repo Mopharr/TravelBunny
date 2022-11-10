@@ -15,13 +15,15 @@ const Home = () => {
       resortName: 'Ikogosi Warm Spring Resort',
       resortLocation: 'Ekiti State, Nigeria',
       resortRating: '4.8 | 67 Reviews',
+      hasRating: true,
     },
     {
       id: 1,
       img: CityImg,
       resortName: 'Ikogosi Warm Spring Resort',
       resortLocation: 'Ekiti State, Nigeria',
-      resortRating: '4.8 | 67 Reviews',
+      resortRating: 'No Reviews Yet',
+      hasRating: false,
     },
     {
       id: 2,
@@ -29,6 +31,7 @@ const Home = () => {
       resortName: 'Ikogosi Warm Spring Resort',
       resortLocation: 'Ekiti State, Nigeria',
       resortRating: '4.8 | 67 Reviews',
+      hasRating: true,
     },
     {
       id: 3,
@@ -36,6 +39,7 @@ const Home = () => {
       resortName: 'Ikogosi Warm Spring Resort',
       resortLocation: 'Ekiti State, Nigeria',
       resortRating: '4.8 | 67 Reviews',
+      hasRating: true,
     },
   ];
 
@@ -58,6 +62,7 @@ const Home = () => {
                   resortName,
                   resortLocation,
                   resortRating,
+                  hasRating,
                 }: any) => (
                   <Card
                     key={id}
@@ -65,6 +70,7 @@ const Home = () => {
                     resortName={resortName}
                     resortLocation={resortLocation}
                     resortRating={resortRating}
+                    hasRating={hasRating}
                   />
                 )
               )}

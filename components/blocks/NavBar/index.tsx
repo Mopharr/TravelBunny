@@ -27,7 +27,7 @@ const NavBar = (props: Props) => (
         <div className='search border-2 border-black flex items-center md:w-11/12 lg:w-10/12 py-3 px-4 rounded-full'>
           <input
             type='search'
-            className='w-full outline-none border-none text-sm placeholder:text-sm placeholder:text-black appearance-none'
+            className='w-full outline-none border-none text-sm placeholder:text-sm placeholder:text-grey-400 appearance-none'
             placeholder='Search Destinations ...'
           />
           <div className='border-l-2 border-black pl-2 cursor-pointer'>

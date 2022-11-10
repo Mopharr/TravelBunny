@@ -8,7 +8,7 @@ import Avatar from '../../../assets/images/avatar.png';
 type Props = {};
 
 const NavBar = (props: Props) => (
-  <nav className='py-5 px-5 lg:px-4'>
+  <nav className='py-5 px-5 lg:px-4 sticky top-0 z-50 bg-white shadow-inner'>
     <div className='container mx-auto flex items-center justify-between'>
       <div className='flex items-center justify-center w-fit space-x-4'>
         <div className='hrounded-full border p-2 shadow rounded-full cursor-pointer'>

@@ -1,3 +1,16 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+:root {
+  --font-poppins: "Poppins", sans-serif;
+}
+
+*,
+*::after,
+*::before {
+  margin: unset;
+  padding: unset;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}

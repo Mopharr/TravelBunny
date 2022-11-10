@@ -73,12 +73,12 @@ const Home = () => {
     {
       id: 2,
       img: YankariImg,
-      resortName: 'Zuma Rock Hiking',
+      resortName: 'Yankari Game Reserve',
       resortDescription:
         ' Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur eius, possimus alias hic ipsa voluptatum velit aut omnis earum repellat consequatur vero enim.',
-      resortLocation: 'Abuja, Nigeria',
-      resortPrice: '50,000',
-      tourDate: '17th November, 2022',
+      resortLocation: 'Bauchi, Nigeria',
+      resortPrice: '80,000',
+      tourDate: '2nd December, 2022',
       tourAgent: 'John Doe',
     },
   ];

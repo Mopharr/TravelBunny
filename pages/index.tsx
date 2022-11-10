@@ -44,6 +44,42 @@ const Home = () => {
     },
   ];
 
+  const groupTrips = [
+    {
+      id: 0,
+      img: CityImg,
+      resortName: 'Zuma Rock Hiking',
+      resortDescription:
+        ' Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur eius, possimus alias hic ipsa voluptatum velit aut omnis earum repellat consequatur vero enim.',
+      resortLocation: 'Abuja, Nigeria',
+      resortPrice: '50,000',
+      tourDate: '17th November, 2022',
+      tourAgent: 'John Doe',
+    },
+    {
+      id: 1,
+      img: CityImg,
+      resortName: 'Zuma Rock Hiking',
+      resortDescription:
+        ' Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur eius, possimus alias hic ipsa voluptatum velit aut omnis earum repellat consequatur vero enim.',
+      resortLocation: 'Abuja, Nigeria',
+      resortPrice: '50,000',
+      tourDate: '17th November, 2022',
+      tourAgent: 'John Doe',
+    },
+    {
+      id: 2,
+      img: CityImg,
+      resortName: 'Zuma Rock Hiking',
+      resortDescription:
+        ' Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur eius, possimus alias hic ipsa voluptatum velit aut omnis earum repellat consequatur vero enim.',
+      resortLocation: 'Abuja, Nigeria',
+      resortPrice: '50,000',
+      tourDate: '17th November, 2022',
+      tourAgent: 'John Doe',
+    },
+  ];
+
   return (
     <>
       <PageHead title='Travel Bunny' />
@@ -93,9 +129,29 @@ const Home = () => {
               </Link>
             </div>
             <div className='grid grid-cols-1 lg:grid-cols-2 gap-8 my-14'>
-              {[0, 1, 2].map(() => (
-                <GroupCard />
-              ))}
+              {groupTrips.map(
+                ({
+                  id,
+                  img,
+                  resortName,
+                  resortDescription,
+                  resortLocation,
+                  resortPrice,
+                  tourDate,
+                  tourAgent,
+                }) => (
+                  <GroupCard
+                    key={id}
+                    img={img}
+                    resortName={resortName}
+                    resortDescription={resortDescription}
+                    resortLocation={resortLocation}
+                    resortPrice={resortPrice}
+                    tourDate={tourDate}
+                    tourAgent={tourAgent}
+                  />
+                )
+              )}
             </div>
           </div>
         </main>

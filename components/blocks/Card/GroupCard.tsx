@@ -29,6 +29,7 @@ const GroupCard = ({
         src={img}
         alt='gourpTrip__image'
         className='absolute w-full h-full object-cover rounded-xl shadow'
+        loading='lazy'
       />
     </div>
     <div className='details justify-self-start w-8/12 flex flex-col space-y-8'>

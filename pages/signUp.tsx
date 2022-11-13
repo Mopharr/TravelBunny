@@ -1,14 +1,11 @@
 import Head from 'next/head';
 import Link from 'next/link';
+import PageHead from '../components/utils/PageHead';
 import style from '../styles/create.module.css';
 
 const SignUp = () => (
   <div>
-    <Head>
-      <title>One Secure</title>
-      <meta name='description' content='One Secure' />
-      <link rel='icon' href='/logo.png' />
-    </Head>
+    <PageHead title='Sign Up | travel Bunny' />
 
     <main className={style.main}>
       <div className={style.rightBa}>
@@ -18,19 +15,31 @@ const SignUp = () => (
           </Link>
 
           <h2>Create a TravelBunny account</h2>
-          <p>
+          <p className=''>
             Explore beautiful locations around the world and organize trips with
             friends, and friendly strangers.
           </p>
 
           <div className={style.input}>
-            <input type='text' placeholder='Username' />
+            <input
+              type='text'
+              placeholder='Username'
+              className='text-base placeholder:text-base'
+            />
           </div>
           <div className={style.input}>
-            <input type='email' placeholder='Email' />
+            <input
+              type='email'
+              placeholder='Email'
+              className='text-base placeholder:text-base'
+            />
           </div>
           <div className={style.input}>
-            <input type='text' placeholder='Password' />
+            <input
+              type='text'
+              placeholder='Password'
+              className='text-base placeholder:text-base'
+            />
           </div>
 
           <button type='button'>

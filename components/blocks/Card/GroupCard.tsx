@@ -23,18 +23,18 @@ const GroupCard = ({
   tourDate,
   tourAgent,
 }: Props) => (
-  <div className='flex p-8 rounded-xl shadow-2xl h-[400px] w-full justify-between space-x-8'>
-    <div className='relative h-[100%] w-[50%] rounded-xl transition ease-in-out duration-800 hover:scale-105'>
+  <div className='flex flex-col md:flex-row p-8 rounded-xl shadow-2xl md:h-[400px] w-full justify-between space-x-8'>
+    <div className='relative h-[100%] md:w-[50%] rounded-xl transition ease-in-out duration-800 hover:scale-105'>
       <Image
         src={img}
         alt='gourpTrip__image'
-        className='absolute w-full h-full object-cover rounded-xl shadow'
+        className='object-cover w-full h-full shadow md:absolute rounded-xl'
         loading='lazy'
       />
     </div>
-    <div className='details justify-self-start w-8/12 flex flex-col space-y-8'>
+    <div className='flex flex-col space-y-8 md:w-8/12 details justify-self-start'>
       <div className='space-y-4'>
-        <h3 className='font-semibold text-lg cursor-pointer hover:underline'>
+        <h3 className='text-lg font-semibold cursor-pointer hover:underline'>
           {resortName}
         </h3>
         <p className='text-base'>{resortDescription}</p>

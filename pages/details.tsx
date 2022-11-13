@@ -1,9 +1,9 @@
-import React from "react";
-import Nav from "../components/blocks/NavBar/index";
-import style from "../styles/details.module.css";
-import { BsFillShareFill, BsFillBookmarkFill } from "react-icons/bs";
-import { GrLocation } from "react-icons/gr";
-import { AiFillStar, AiOutlineCheckCircle } from "react-icons/ai";
+import React from 'react';
+import { BsFillShareFill, BsFillBookmarkFill } from 'react-icons/bs';
+import { GrLocation } from 'react-icons/gr';
+import { AiFillStar, AiOutlineCheckCircle } from 'react-icons/ai';
+import Nav from '../components/blocks/NavBar/index';
+import style from '../styles/details.module.css';
 
 const Details = () => {
   return (
@@ -13,7 +13,7 @@ const Details = () => {
         <div className={style.b4Div}>
           <div className={style.detailsCap}>
             <div className={style.lef}>
-              <img src="/tra2.png" alt="" />
+              <img src='/tra2.png' alt='logo' />
               <div className={style.lText}>
                 <h2>Ikogosi Warm Spring Resort</h2>
                 <div className={style.tIcon}>
@@ -30,8 +30,8 @@ const Details = () => {
                 <span>4.8</span> |<span className={style.link}>67 Reviews</span>
               </div>
               <div className={style.location}>
-                <button>#Lake</button>
-                <button>#swimming</button>
+                <button type='button'>#Lake</button>
+                <button type='button'>#swimming</button>
               </div>
 
               <div className={style.desc}>
@@ -51,27 +51,27 @@ const Details = () => {
                 <h2>Organizer</h2>
                 <div className={style.pla}>
                   <div className={style.pText}>
-                    <AiOutlineCheckCircle className={style.Icon} />{" "}
+                    <AiOutlineCheckCircle className={style.Icon} />{' '}
                     <span>Warm water swimming pool</span>
                   </div>
                   <div className={style.pText}>
-                    <AiOutlineCheckCircle className={style.Icon} />{" "}
+                    <AiOutlineCheckCircle className={style.Icon} />{' '}
                     <span>Restaurant</span>
                   </div>
                   <div className={style.pText}>
-                    <AiOutlineCheckCircle className={style.Icon} />{" "}
+                    <AiOutlineCheckCircle className={style.Icon} />{' '}
                     <span>Car Park</span>
                   </div>
                   <div className={style.pText}>
-                    <AiOutlineCheckCircle className={style.Icon} />{" "}
+                    <AiOutlineCheckCircle className={style.Icon} />{' '}
                     <span>Warm water swimming pool</span>
                   </div>
                   <div className={style.pText}>
-                    <AiOutlineCheckCircle className={style.Icon} />{" "}
+                    <AiOutlineCheckCircle className={style.Icon} />{' '}
                     <span>Restaurantl</span>
                   </div>
                   <div className={style.pText}>
-                    <AiOutlineCheckCircle className={style.Icon} />{" "}
+                    <AiOutlineCheckCircle className={style.Icon} />{' '}
                     <span>Car Park</span>
                   </div>
                 </div>
@@ -81,7 +81,7 @@ const Details = () => {
 
                 <div>
                   <div className={style.orgaN}>
-                    <img src="/tra1.png" alt="" />
+                    <img src='/tra1.png' alt='' />
                     <div className={style.name}>
                       <p>David Adewale</p>
                       <span>22, October 2022</span>
@@ -91,12 +91,12 @@ const Details = () => {
                     Lorem ipsum dolor sit amet consectetur. Eget porttitor neque
                     pellentesque diam. Felis nunc scelerisque nibh enim nec mi
                     viverra diam risus. Laoreet lacus dui vel nisl suspendisse
-                    nisi{" "}
+                    nisi{' '}
                   </p>
                 </div>
                 <div>
                   <div className={style.orgaN}>
-                    <img src="/tra1.png" alt="" />
+                    <img src='/tra1.png' alt='' />
                     <div className={style.name}>
                       <p>David Adewale</p>
                       <span>22, October 2022</span>
@@ -106,21 +106,21 @@ const Details = () => {
                     Lorem ipsum dolor sit amet consectetur. Eget porttitor neque
                     pellentesque diam. Felis nunc scelerisque nibh enim nec mi
                     viverra diam risus. Laoreet lacus dui vel nisl suspendisse
-                    nisi{" "}
+                    nisi{' '}
                   </p>
                 </div>
               </div>
             </div>
             <div className={style.rright}>
-              <img src="/tra1.png" alt="" />
+              <img src='/tra1.png' alt='' />
               <div className={style.rig}>
                 <h2>Get access to so much more from our 3rd party partners</h2>
 
-                <button>Find Hotels Around</button>
-                <button>Book a flight to Location</button>
-                <button>Book Taxi</button>
-                <button>Chatter Bus</button>
-                <button>Find Event Around</button>
+                <button type='button'>Find Hotels Around</button>
+                <button type='button'>Book a flight to Location</button>
+                <button type='button'>Book Taxi</button>
+                <button type='button'>Chatter Bus</button>
+                <button type='button'>Find Event Around</button>
               </div>
             </div>
           </div>

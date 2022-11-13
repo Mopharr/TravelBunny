@@ -1,0 +1,314 @@
+.details {
+  width: 100%;
+  height: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+.details > div {
+  max-width: 1440px;
+  width: 100%;
+  margin: auto;
+}
+
+.h22 {
+  width: 613px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 45px;
+  margin: 0 0 2em;
+  color: #000000;
+}
+
+.detailsCap {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  width: 100%;
+  height: 100%;
+}
+.lef {
+  width: 780px;
+  border-radius: 25px;
+}
+
+.lef img {
+  width: 100%;
+  height: 423px;
+  margin-bottom: 3em;
+  border-radius: 20px;
+}
+
+.lef p {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 38px;
+  color: #000000;
+  margin: 0 0 2em;
+}
+.lef hr {
+  /* height: 2px; */
+  width: 100%;
+  background-color: #a7a4a4;
+}
+
+.lef span {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 38px;
+  color: #000000;
+}
+.drop {
+  padding: 2em 0;
+}
+.drop button {
+  width: 165px;
+  height: 40px;
+  background: #ffffff;
+  border: 2px solid #0099ff;
+  border-radius: 5px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 30px;
+  text-align: center;
+  color: #0099ff;
+}
+
+.drop h2 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 45px;
+  color: #000000;
+}
+
+.orgaN {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 1em;
+  margin-bottom: 1em;
+}
+
+.orgaN img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+.pp {
+  margin: 0 0 30px !important;
+}
+.name {
+  width: 600px;
+}
+.name p {
+  margin: 0 0 10px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 38px;
+  color: #000000;
+}
+.name span {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 38px;
+  color: #000000;
+}
+.name h6 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 27px;
+  /* identical to box height */
+  margin: 0;
+  color: #000000;
+}
+
+.rig {
+  width: 444px;
+    height: 100%;
+  background: #ffffff;
+  border: 1px solid #a7a4a4;
+  border-radius: 10px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  padding: 2em 1em;
+}
+
+.proG {
+  width: 367px;
+  height: 20px;
+  position: relative;
+  background: #a7a4a4;
+  border-radius: 50px;
+}
+
+.proB {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 164px;
+  height: 20px;
+  background: #0099ff;
+  border-radius: 50px;
+}
+.gg {
+  margin-top: 2em;
+}
+
+.rig h3 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 38px;
+  /* identical to box height */
+  margin: 0;
+  color: #000000;
+}
+.rig span {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 38px;
+  /* identical to box height */
+
+  color: #000000;
+}
+.btnD {
+  width: 385px;
+  height: 60px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 38px;
+  text-align: center;
+  color: #ffffff;
+  background: #0099ff;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+  margin: 2em 0 1em;
+}
+
+.btnW {
+  width: 385px;
+  height: 60px;
+  background: #ffffff;
+  border: 2px solid #0099ff;
+  border-radius: 5px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 38px;
+  text-align: center;
+  color: #0099ff;
+}
+
+.dAmt {
+  margin-top: 2em;
+}
+
+.dAmt h3 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 38px;
+  color: #000000;
+  margin-bottom: 2em;
+}
+
+.hgh{
+    margin-top: 3em;
+}
+.nrr{
+    margin: 4em auto 8em !important;
+}
+
+
+
+
+@media (max-width: 1440px) {
+    .details {
+        max-width: 98%;
+    }
+     .details > div{
+        max-width: 98%;
+        margin: auto;
+
+    }
+
+}
+
+@media (max-width: 1260px) {
+    .detailsCap {
+        flex-direction: column;
+    }
+    .lef {
+        width: 90%;
+        margin:  0 auto 3em !important;
+    }
+    .rig {
+        width: 90%;
+        margin: auto;
+    }
+    .proG{
+        width: 90%;
+    }
+    .proB{
+        width: 50%;
+    }
+    .nm{
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+    }
+    .gg{
+        margin-right: 3em;
+    }
+   
+}
+
+@media (max-width: 700px) {
+    
+    .h22{
+        width: 95%;
+    }
+     .lef {
+        width: 98%;
+        margin: auto;
+    }
+
+ 
+}
+
+@media (max-width: 450px) {
+    .btnD {
+        width: 97%;
+        margin: 2em  auto 1em;
+    }
+      .btnW {
+        width: 97%;
+        margin: 2em  auto 1em;
+    }
+   
+
+}

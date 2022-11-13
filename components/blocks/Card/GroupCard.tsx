@@ -5,7 +5,7 @@ import { BsCashCoin } from 'react-icons/bs';
 import Test from '../../../assets/images/ik.png';
 
 type Props = {
-  img: string;
+  img: any;
   resortName: string;
   resortDescription: string;
   resortLocation: string;

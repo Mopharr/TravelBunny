@@ -35,7 +35,7 @@ const Details = () => (
 
             <div className={style.desc}>
               <h2>Description</h2>
-              <p className=''>
+              <p>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Rutrum
                 viverra tellus, amet proin in semper arcu. Leo quis vitae
                 scelerisque erat urna,i Lorem ipsum dolor sit amet, consectetur

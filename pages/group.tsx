@@ -57,20 +57,19 @@ const Group = () => (
             </div>
 
             <div className={style.desc}>
-              <h2>Organizer</h2>
+              <h2>Description</h2>
               <p>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Rutrum
-                viverra tellus, amet proin in semper arcu. Leo quis vitae
-                scelerisque erat urna,i Lorem ipsum dolor sit amet, consectetur
-                adipiscing elit. Rutrum viverra tellus, amet proin in semper
-                arcu. Leo quis vitae scelerisque erat urna,i Lorem ipsum dolor
-                sit amet, consectetur adipiscing elit. Rutrum viverra tellus,
-                amet proin in semper
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Magni
+                dolorem possimus corrupti a, dolorum quam excepturi non quas
+                reprehenderit minima. Quasi saepe, iste voluptas ducimus, harum
+                id tenetur eius quam recusandae adipisci, earum eos? Amet
+                distinctio tempore eaque officia ipsa.
               </p>
             </div>
 
             <div className={style.drop}>
-              <h2>Organizer</h2>
+              <h2>Attractions</h2>
               <div className={style.pla}>
                 <div className={style.pText}>
                   <AiOutlineCheckCircle className={style.Icon} />{' '}
@@ -99,7 +98,7 @@ const Group = () => (
               </div>
             </div>
             <div className={style.drop}>
-              <h2>Review (67)</h2>
+              <h2>Comments (67)</h2>
 
               <div>
                 <div className={style.orgaN}>
@@ -113,7 +112,7 @@ const Group = () => (
                   Lorem ipsum dolor sit amet consectetur. Eget porttitor neque
                   pellentesque diam. Felis nunc scelerisque nibh enim nec mi
                   viverra diam risus. Laoreet lacus dui vel nisl suspendisse
-                  nisi{' '}
+                  nisi
                 </p>
               </div>
               <div>
@@ -128,7 +127,7 @@ const Group = () => (
                   Lorem ipsum dolor sit amet consectetur. Eget porttitor neque
                   pellentesque diam. Felis nunc scelerisque nibh enim nec mi
                   viverra diam risus. Laoreet lacus dui vel nisl suspendisse
-                  nisi{' '}
+                  nisi
                 </p>
               </div>
             </div>
@@ -155,11 +154,11 @@ const Group = () => (
 
               <div className={style.order}>
                 <h3>Order summary</h3>
-                <span>1 * 50,000</span>
+                <span>1 x 50,000</span>
               </div>
               <div className={style.order}>
                 <h3>Order summary</h3>
-                <span>1 * 50,000</span>
+                <span>1 x 50,000</span>
               </div>
             </div>
           </div>

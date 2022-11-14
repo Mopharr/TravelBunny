@@ -2,7 +2,6 @@ import Image from 'next/image';
 import { GoLocation } from 'react-icons/go';
 import { HiOutlineCalendar, HiOutlineUserCircle } from 'react-icons/hi';
 import { BsCreditCard } from 'react-icons/bs';
-import Test from '../../../assets/images/ik.png';
 import Link from 'next/link';
 
 type Props = {

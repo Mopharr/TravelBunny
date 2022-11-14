@@ -1,6 +1,5 @@
 /* eslint-disable jsx-a11y/label-has-associated-control */
 import PageHead from '../components/utils/PageHead';
-
 import Nav from '../components/blocks/NavBar/index';
 import style from '../styles/trip.module.css';
 
@@ -10,9 +9,8 @@ const Attribute = () => (
 
     <div className={style.details}>
       <Nav />
-
       <div>
-        <h2>Create Trip</h2>
+        <h2>Post Attraction</h2>
         <div className={style.bIn}>
           <div className={style.in}>
             <label>Trip Title</label>
@@ -55,7 +53,7 @@ const Attribute = () => (
         </div>
         <div className={style.bIn}>
           <div className={style.in}>
-            <button type='button'>Create Group Trip</button>
+            <button type='button'>Post Attraction</button>
           </div>
         </div>
       </div>

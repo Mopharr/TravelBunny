@@ -2,7 +2,7 @@ import Image from 'next/image';
 import { GoLocation } from 'react-icons/go';
 import { HiOutlineCalendar, HiOutlineUserCircle } from 'react-icons/hi';
 import { BsCreditCard } from 'react-icons/bs';
-import Test from '../../../assets/images/ik.png';
+import Link from 'next/link';
 
 type Props = {
   img: any;
@@ -23,7 +23,10 @@ const GroupCard = ({
   tourDate,
   tourAgent,
 }: Props) => (
-  <div className='flex flex-col md:flex-row p-8 rounded-xl shadow-2xl md:h-[420px] w-full justify-between space-y-6 md:space-x-8 md:space-y-0'>
+  <Link
+    href='/group'
+    className='flex flex-col md:flex-row p-8 rounded-xl shadow-2xl md:h-[420px] w-full justify-between space-y-6 md:space-x-8 md:space-y-0'
+  >
     <div className='relative h-[100%] md:w-[50%] rounded-xl transition ease-in-out duration-800 hover:scale-105'>
       <Image
         src={img}
@@ -59,7 +62,7 @@ const GroupCard = ({
         </div>
       </div>
     </div>
-  </div>
+  </Link>
 );
 
 export default GroupCard;

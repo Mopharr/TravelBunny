@@ -67,11 +67,11 @@ const Details = () => (
                 </div>
                 <div className='flex items-center justify-start space-x-2'>
                   <AiOutlineCheckCircle size={30} />{' '}
-                  <span className='text-sm'>Restaurantl</span>
+                  <span className='text-sm'>Games Night</span>
                 </div>
                 <div className='flex items-center justify-start space-x-2'>
                   <AiOutlineCheckCircle size={30} />{' '}
-                  <span className='text-sm'>Car Park</span>
+                  <span className='text-sm'>Ferris Wheel</span>
                 </div>
               </div>
             </div>

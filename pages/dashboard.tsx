@@ -4,6 +4,7 @@ import Image from 'next/image';
 import { useState } from 'react';
 import Link from 'next/link';
 import dynamic from 'next/dynamic';
+import { BsPlusLg } from 'react-icons/bs';
 import PageHead from '../components/utils/PageHead';
 import NavBar from '../components/blocks/NavBar';
 import { cities, groupTrips } from '../components/utils/travelBunnyData';
@@ -97,7 +98,7 @@ const Home = () => {
           className={style.plus}
           onClick={() => setShowModal(!showModal)}
         >
-          <p>+</p>
+          <BsPlusLg />
         </div>
       </div>
       {showModal && <Modal open />}

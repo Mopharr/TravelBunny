@@ -42,12 +42,15 @@ const SignUp = () => (
             />
           </div>
 
-          <button type='button'>
+          <button type='button' className='mb-4'>
             <Link href='/dashboard'>Create Account</Link>
           </button>
           <p className={style.login}>
             Don&lsquo;t have a TravelBunny <br /> account?
-            <Link className={style.loginC} href='/login'>
+            <Link
+              className={`underline hover:underline ${style.loginC}`}
+              href='/login'
+            >
               Login
             </Link>
           </p>

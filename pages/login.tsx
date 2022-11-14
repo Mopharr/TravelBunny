@@ -35,12 +35,15 @@ const Login = () => (
             />
           </div>
 
-          <button type='button'>
+          <button type='button' className='mb-4'>
             <Link href='/dashboard'>Login</Link>
           </button>
           <p className={style.login}>
-            Don&lsquo;t have a TravelBunny <br /> account?
-            <Link className={style.loginC} href='/'>
+            Don&lsquo;t have a TravelBunny <br /> account?{' '}
+            <Link
+              className={`underline hover:underline ${style.loginC}`}
+              href='/'
+            >
               Sign up for free
             </Link>
           </p>

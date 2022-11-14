@@ -74,8 +74,7 @@
   color: #000000;
 }
 .location button {
-  width: 100px;
-  height: 30px;
+  padding: 4px 20px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -84,7 +83,7 @@
   font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 400;
-  font-size: 20px;
+  font-size: 16px;
   line-height: 30px;
   color: #000000;
 }
@@ -105,10 +104,11 @@
   font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 400;
-  font-size: 24px;
+  font-size: 20px;
   line-height: 36px;
   color: #000000;
   margin: 0 0 2em;
+  text-align: justify;
 }
 
 .lef span {

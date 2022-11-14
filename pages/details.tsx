@@ -34,8 +34,8 @@ const Details = () => (
             </div>
 
             <div className={style.desc}>
-              <h2>Organizer</h2>
-              <p>
+              <h2>Description</h2>
+              <p className=''>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Rutrum
                 viverra tellus, amet proin in semper arcu. Leo quis vitae
                 scelerisque erat urna,i Lorem ipsum dolor sit amet, consectetur
@@ -47,7 +47,7 @@ const Details = () => (
             </div>
 
             <div className={style.drop}>
-              <h2>Organizer</h2>
+              <h2>Attractions</h2>
               <div className={style.pla}>
                 <div className={style.pText}>
                   <AiOutlineCheckCircle className={style.Icon} />{' '}
@@ -76,7 +76,7 @@ const Details = () => (
               </div>
             </div>
             <div className={style.drop}>
-              <h2>Review (67)</h2>
+              <h2>Reviews</h2>
 
               <div>
                 <div className={style.orgaN}>
@@ -90,7 +90,7 @@ const Details = () => (
                   Lorem ipsum dolor sit amet consectetur. Eget porttitor neque
                   pellentesque diam. Felis nunc scelerisque nibh enim nec mi
                   viverra diam risus. Laoreet lacus dui vel nisl suspendisse
-                  nisi{' '}
+                  nisi
                 </p>
               </div>
               <div>
@@ -105,7 +105,7 @@ const Details = () => (
                   Lorem ipsum dolor sit amet consectetur. Eget porttitor neque
                   pellentesque diam. Felis nunc scelerisque nibh enim nec mi
                   viverra diam risus. Laoreet lacus dui vel nisl suspendisse
-                  nisi{' '}
+                  nisi
                 </p>
               </div>
             </div>

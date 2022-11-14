@@ -1,7 +1,7 @@
 import Image from 'next/image';
 import { GoLocation } from 'react-icons/go';
 import { HiOutlineCalendar, HiOutlineUserCircle } from 'react-icons/hi';
-import { BsCashCoin } from 'react-icons/bs';
+import { BsCreditCard } from 'react-icons/bs';
 import Test from '../../../assets/images/ik.png';
 
 type Props = {
@@ -23,7 +23,7 @@ const GroupCard = ({
   tourDate,
   tourAgent,
 }: Props) => (
-  <div className='flex flex-col md:flex-row p-8 rounded-xl shadow-2xl md:h-[400px] w-full justify-between space-x-8'>
+  <div className='flex flex-col md:flex-row p-8 rounded-xl shadow-2xl md:h-[420px] w-full justify-between space-y-6 md:space-x-8'>
     <div className='relative h-[100%] md:w-[50%] rounded-xl transition ease-in-out duration-800 hover:scale-105'>
       <Image
         src={img}
@@ -34,7 +34,7 @@ const GroupCard = ({
     </div>
     <div className='flex flex-col space-y-8 md:w-8/12 details justify-self-start'>
       <div className='space-y-4'>
-        <h3 className='text-lg font-semibold cursor-pointer hover:underline'>
+        <h3 className='text-xl font-semibold cursor-pointer hover:underline'>
           {resortName}
         </h3>
         <p className='text-base'>{resortDescription}</p>
@@ -54,7 +54,7 @@ const GroupCard = ({
           <p>{tourDate}</p>
         </div>
         <div className='flex items-center justify-start space-x-2'>
-          <BsCashCoin size={20} />
+          <BsCreditCard size={20} />
           <p>₦ {resortPrice}</p>
         </div>
       </div>

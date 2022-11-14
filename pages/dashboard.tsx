@@ -90,7 +90,6 @@ const Home = () => {
               )}
             </div>
           </div>
-          {/* <Modal open /> */}
         </main>
 
         <div

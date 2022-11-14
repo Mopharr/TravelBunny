@@ -239,7 +239,6 @@
   margin-bottom: 1em;
 }
 
-
 @media (max-width: 1440px) {
   .details {
     max-width: 98%;
@@ -262,14 +261,11 @@
     width: 90%;
     margin: auto;
   }
-
 }
 
 @media (max-width: 700px) {
-  
   .lef {
     width: 98%;
     margin: auto;
   }
 }
-

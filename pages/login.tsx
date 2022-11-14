@@ -40,7 +40,7 @@ const Login = () => (
           </button>
           <p className={style.login}>
             Don&lsquo;t have a TravelBunny <br /> account?
-            <Link className={style.loginC} href='/signup'>
+            <Link className={style.loginC} href='/'>
               Sign up for free
             </Link>
           </p>

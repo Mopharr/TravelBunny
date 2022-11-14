@@ -48,36 +48,35 @@ const Details = () => (
 
             <div className={style.drop}>
               <h2>Attractions</h2>
-              <div className={style.pla}>
-                <div className={style.pText}>
-                  <AiOutlineCheckCircle className={style.Icon} />{' '}
-                  <span>Warm water swimming pool</span>
+              <div className='grid grid-cols-1 gap-x-4 gap-y-6 sm:grid-cols-3'>
+                <div className='flex items-center justify-start space-x-2'>
+                  <AiOutlineCheckCircle size={30} />{' '}
+                  <span className='text-sm'>Private Swimming Pool</span>
                 </div>
-                <div className={style.pText}>
-                  <AiOutlineCheckCircle className={style.Icon} />{' '}
-                  <span>Restaurant</span>
+                <div className='flex items-center justify-start space-x-2'>
+                  <AiOutlineCheckCircle size={30} />{' '}
+                  <span className='text-sm'>Restaurant</span>
                 </div>
-                <div className={style.pText}>
-                  <AiOutlineCheckCircle className={style.Icon} />{' '}
-                  <span>Car Park</span>
+                <div className='flex items-center justify-start space-x-2'>
+                  <AiOutlineCheckCircle size={30} />{' '}
+                  <span className='text-sm'>Car Park</span>
                 </div>
-                <div className={style.pText}>
-                  <AiOutlineCheckCircle className={style.Icon} />{' '}
-                  <span>Warm water swimming pool</span>
+                <div className='flex items-center justify-start space-x-2'>
+                  <AiOutlineCheckCircle size={30} />{' '}
+                  <span className='text-sm'>Paint Ball</span>
                 </div>
-                <div className={style.pText}>
-                  <AiOutlineCheckCircle className={style.Icon} />{' '}
-                  <span>Restaurantl</span>
+                <div className='flex items-center justify-start space-x-2'>
+                  <AiOutlineCheckCircle size={30} />{' '}
+                  <span className='text-sm'>Games Night</span>
                 </div>
-                <div className={style.pText}>
-                  <AiOutlineCheckCircle className={style.Icon} />{' '}
-                  <span>Car Park</span>
+                <div className='flex items-center justify-start space-x-2'>
+                  <AiOutlineCheckCircle size={30} />{' '}
+                  <span className='text-sm'>Ferris Wheel</span>
                 </div>
               </div>
             </div>
             <div className={style.drop}>
               <h2>Reviews</h2>
-
               <div>
                 <div className={style.orgaN}>
                   <img src='/tra1.png' alt='' />

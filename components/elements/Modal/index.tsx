@@ -7,9 +7,9 @@ type Props = {
 };
 
 const Modal = ({ open }: Props) => (
-  <div className='modal w-[220px] border z-50 fixed left-[80%] bottom-[8.5rem] rounded-xl bg-[#FF385C] text-white'>
+  <div className='modal w-[220px] z-50 fixed left-[40%] sm:left-[60%] lg:left-[80%] bottom-[8.5rem] rounded-xl bg-[#FF385C] text-white'>
     {open && (
-      <div className='flex flex-col justify-center space-y-2'>
+      <div className='flex flex-col justify-center'>
         <Link
           href='/create'
           className='flex items-center py-4 pl-4 space-x-2 hover:bg-[#ff4d6d] rounded-xl'

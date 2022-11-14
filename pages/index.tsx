@@ -1,32 +1,32 @@
-import Image from "next/image";
-import { useState } from "react";
-import Link from "next/link";
-import dynamic from "next/dynamic";
-import PageHead from "../components/utils/PageHead";
-import NavBar from "../components/blocks/NavBar";
-import { cities, groupTrips } from "../components/utils/travelBunnyData";
-import style from '../styles/details.module.css'
+import Image from 'next/image';
+import { useState } from 'react';
+import Link from 'next/link';
+import dynamic from 'next/dynamic';
+import PageHead from '../components/utils/PageHead';
+import NavBar from '../components/blocks/NavBar';
+import { cities, groupTrips } from '../components/utils/travelBunnyData';
+import style from '../styles/details.module.css';
 
-const Card = dynamic(() => import("../components/blocks/Card"));
-const GroupCard = dynamic(() => import("../components/blocks/Card/GroupCard"));
+const Card = dynamic(() => import('../components/blocks/Card'));
+const GroupCard = dynamic(() => import('../components/blocks/Card/GroupCard'));
 
 const Home = () => (
   <div>
-    <PageHead title="Travel Bunny" />
+    <PageHead title='Travel Bunny' />
     <div>
       <NavBar />
-      <main className="container mx-auto my-4 main">
-        <div className="px-6 my-8 cities lg:px-0">
-          <div className="flex items-center justify-between heading">
-            <h1 className="text-xl font-semibold">Explore cities</h1>
+      <main className='container mx-auto my-4 main'>
+        <div className='px-6 my-8 cities lg:px-0'>
+          <div className='flex items-center justify-between heading'>
+            <h1 className='text-xl font-semibold'>Explore cities</h1>
             <Link
-              href="/all-cities"
-              className="text-sm text-[#FF385C] hover:underline hover:text-[#FF385C]"
+              href='/all-cities'
+              className='text-sm text-[#FF385C] hover:underline hover:text-[#FF385C]'
             >
               See all
             </Link>
           </div>
-          <div className="grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-4 my-14">
+          <div className='grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-4 my-14'>
             {cities.map(
               ({
                 id,
@@ -48,17 +48,17 @@ const Home = () => (
             )}
           </div>
         </div>
-        <div className="px-6 my-20 cities lg:px-0">
-          <div className="flex items-center justify-between heading">
-            <h1 className="text-xl font-semibold">Group Trips</h1>
+        <div className='px-6 my-20 cities lg:px-0'>
+          <div className='flex items-center justify-between heading'>
+            <h1 className='text-xl font-semibold'>Group Trips</h1>
             <Link
-              href="/all-cities"
-              className="text-sm text-[#FF385C] hover:text-[#FF385C] hover:underline"
+              href='/all-cities'
+              className='text-sm text-[#FF385C] hover:text-[#FF385C] hover:underline'
             >
               See all
             </Link>
           </div>
-          <div className="grid grid-cols-1 gap-8 lg:grid-cols-2 my-14">
+          <div className='grid grid-cols-1 gap-8 lg:grid-cols-2 my-14'>
             {groupTrips.map(
               ({
                 id,
@@ -87,7 +87,7 @@ const Home = () => (
       </main>
 
       <div className={style.plus}>
-                <p>+</p>
+        <p>+</p>
       </div>
     </div>
   </div>

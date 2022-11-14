@@ -1,0 +1,91 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:display=swap");
+
+.details {
+  width: 100%;
+  height: 100%;
+  padding: 0;
+  margin: 0;
+}
+.details > div {
+  max-width: 1440px;
+  width: 100%;
+  margin: 4em auto 1em;
+}
+
+.details h2 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 45px;
+  color: #000000;
+  margin: 2em 0;
+}
+.bIn {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+
+}
+.in {
+  width: 480px;
+  margin-bottom: 4em;
+}
+.in label {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 38px;
+  color: #000000;
+}
+.in input {
+  width: 100%;
+  height: 60px;
+  background: #ffffff;
+  border: 1px solid #000000;
+  border-radius: 8px;
+}
+.in textarea {
+  width: 100%;
+  height: 199px;
+  background: #ffffff;
+  border: 1px solid #000000;
+  border-radius: 8px;
+}
+.in button {
+  width: 488px;
+  height: 60px;
+  background: #ff385c;
+  border-radius: 8px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 36px;
+  color: #ffffff;
+}
+
+@media (max-width: 1440px) {
+  .details {
+    max-width: 98%;
+  }
+  .details > div {
+    max-width: 98%;
+    margin: auto;
+  }
+  .in {
+      width: 400px;
+  }
+}
+
+@media (max-width: 840px) {
+      .in {
+      width: 100%;
+  }
+  .in button{
+      width: 100%;
+  }
+}
+

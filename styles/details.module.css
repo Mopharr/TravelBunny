@@ -130,6 +130,7 @@
   font-size: 24px;
   line-height: 36px;
   color: #000000;
+  margin-bottom: 20px;
 }
 .pla {
   display: flex;
@@ -142,8 +143,7 @@
   width: 230px;
   display: flex;
   justify-content: center;
-  align-items: flex-start;
-  gap: 1em;
+  align-items: center;
 }
 
 .orgaN {

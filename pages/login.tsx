@@ -15,16 +15,24 @@ const Login = () => (
           </Link>
 
           <h2>Log in to your TravelBunny account</h2>
-          <p>
+          <p className='text-base'>
             Welcome back. Explore beautiful locations around the world and
             create amazing memories.
           </p>
 
           <div className={style.input}>
-            <input type='email' placeholder='Email' />
+            <input
+              type='email'
+              placeholder='Email'
+              className='text-base placeholder:text-base'
+            />
           </div>
           <div className={style.input}>
-            <input type='password' placeholder='OneSecure Password' />
+            <input
+              type='password'
+              placeholder='Password'
+              className='text-base placeholder:text-base'
+            />
           </div>
 
           <button type='button'>
@@ -32,7 +40,7 @@ const Login = () => (
           </button>
           <p className={style.login}>
             Don&lsquo;t have a TravelBunny <br /> account?
-            <Link className={style.loginC} href='/signUp'>
+            <Link className={style.loginC} href='/signup'>
               Sign up for free
             </Link>
           </p>

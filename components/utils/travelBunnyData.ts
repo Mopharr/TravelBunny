@@ -8,7 +8,7 @@ export const groupTrips = [
     img: CityImg,
     resortName: 'Zuma Rock Hiking',
     resortDescription:
-      ' Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur eius, possimus alias hic ipsa voluptatum velit aut omnis earum repellat consequatur vero enim.',
+      ' Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur eius, possimus alias hic ipsa voluptatum.',
     resortLocation: 'Abuja, Nigeria',
     resortPrice: '50,000',
     tourDate: '17th November, 2022',
@@ -30,7 +30,7 @@ export const groupTrips = [
     img: YankariImg,
     resortName: 'Yankari Game Reserve',
     resortDescription:
-      ' Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur eius, possimus alias hic ipsa voluptatum velit aut omnis earum repellat consequatur vero enim.',
+      ' Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur eius, possimus alias hic ipsa voluptatum.',
     resortLocation: 'Bauchi, Nigeria',
     resortPrice: '80,000',
     tourDate: '2nd December, 2022',

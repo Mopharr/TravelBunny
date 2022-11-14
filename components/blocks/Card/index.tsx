@@ -26,7 +26,7 @@ const Card = ({
       />
     </div>
     <div className='text-base space-y-[0.5rem] mb-2'>
-      <h3 className='font-semibold cursor-pointer hover:text-[#36454f] hover:underline'>
+      <h3 className='font-semibold cursor-pointer hover:text-[#36454f] hover:underline text-xl'>
         {resortName}
       </h3>
       <div className='flex items-center justify-start space-x-3'>

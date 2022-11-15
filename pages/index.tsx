@@ -43,7 +43,7 @@ const SignUp = () => (
           </div>
 
           <button type='button' className='mb-4'>
-            <Link href='/dashboard'>Create Account</Link>
+            <Link href='/login'>Create Account</Link>
           </button>
           <p className={style.login}>
             Don&lsquo;t have a TravelBunny <br /> account?

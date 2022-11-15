@@ -134,7 +134,7 @@ const Details = () => (
 
               <button
                 type='button'
-                className='text-[#FF385C] border-[#FF385C] border-2 px-8 py-2 rounded-lg font-semibold text-lg'
+                className='text-[#FF385C] border-[#FF385C] border-2 px-8 py-2 rounded-lg font-semibold text-lg hover:bg-[#ff385c] hover:text-white'
               >
                 Go on Virtual Tour
               </button>

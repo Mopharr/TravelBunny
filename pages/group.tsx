@@ -40,12 +40,12 @@ const Group = () => (
               <MdOutlinePayment className={style.Icon} />
               <span>N50,000</span>
             </div>
-            <div className={style.location}>
+            <div className={`${style.location}`}>
               <button type='button'>#Lake</button>
-              <button type='button'>#swim</button>
+              <button type='button'>#hiking</button>
             </div>
 
-            <div className={style.round}>
+            {/* <div className={style.round}>
               <div className={style.roundCap} />
               <div className={style.roundCap1} />
               <div className={style.roundCap2} />
@@ -54,7 +54,7 @@ const Group = () => (
               <div className={style.roundCap5}>
                 <p>50+ People</p>
               </div>
-            </div>
+            </div> */}
 
             <div className={style.desc}>
               <h2>Description</h2>

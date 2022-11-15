@@ -154,11 +154,11 @@ const Group = () => (
 
               <div className={style.order}>
                 <h3>Order summary</h3>
-                <span>1 x 50,000</span>
+                <span>1 x ₦50,000</span>
               </div>
               <div className={style.order}>
-                <h3>Order summary</h3>
-                <span>1 x 50,000</span>
+                <h3>Total</h3>
+                <span>₦ 50,000</span>
               </div>
             </div>
           </div>

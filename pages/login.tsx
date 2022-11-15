@@ -35,9 +35,12 @@ const Login = () => (
             />
           </div>
 
-          <button type='button' className='mb-4'>
-            <Link href='/dashboard'>Login</Link>
-          </button>
+          <Link
+            href='/dashboard'
+            className='py-4 my-8 text-xl font-semibold text-center text-white bg-black rounded-lg hover:text-white'
+          >
+            Login
+          </Link>
           <p className={style.login}>
             Don&lsquo;t have a TravelBunny <br /> account?{' '}
             <Link

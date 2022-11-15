@@ -1,11 +1,11 @@
-import CityImg from '../../assets/images/ik.png';
-import NikeImg from '../../assets/images/nk.png';
-import YankariImg from '../../assets/images/yankari.jpeg';
+// import CityImg from '/images/ik.png';
+// import NikeImg from '../../assets/images/nk.png';
+// import 'YankariImg from '../../assets/images/yankari.jpeg';
 
 export const groupTrips = [
   {
     id: 0,
-    img: CityImg,
+    img: '/images/ik.png',
     resortName: 'Zuma Rock Hiking',
     resortDescription:
       ' Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur eius, possimus alias hic ipsa voluptatum.',
@@ -16,7 +16,7 @@ export const groupTrips = [
   },
   {
     id: 1,
-    img: NikeImg,
+    img: '/images/nk.png',
     resortName: 'Nike Art - Sip and Paint',
     resortDescription:
       'Come and have fun with your friends and family this weekend. Food, games and fun activities',
@@ -27,7 +27,7 @@ export const groupTrips = [
   },
   {
     id: 2,
-    img: YankariImg,
+    img: '/images/yankari.jpeg',
     resortName: 'Yankari Game Reserve',
     resortDescription:
       ' Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur eius, possimus alias hic ipsa voluptatum.',
@@ -41,7 +41,7 @@ export const groupTrips = [
 export const cities = [
   {
     id: 0,
-    img: CityImg,
+    img: '/images/ik.png',
     resortName: 'Ikogosi Warm Spring Resort',
     resortLocation: 'Ekiti State, Nigeria',
     resortRating: '4.2 | 67 Reviews',
@@ -49,7 +49,7 @@ export const cities = [
   },
   {
     id: 1,
-    img: NikeImg,
+    img: '/images/nk.png',
     resortName: 'Nike Art Gallery',
     resortLocation: 'Lagos State, Nigeria',
     resortRating: '3.8 | 67 Reviews',
@@ -57,7 +57,7 @@ export const cities = [
   },
   {
     id: 2,
-    img: YankariImg,
+    img: '/images/yankari.jpeg',
     resortName: 'Yankari Game Resort',
     resortLocation: 'Bauchi State, Nigeria',
     resortRating: '4.8 | 67 Reviews',
@@ -65,7 +65,7 @@ export const cities = [
   },
   {
     id: 3,
-    img: NikeImg,
+    img: '/images/nk.png',
     resortName: 'Ikogosi Warm Spring Resort',
     resortLocation: 'Ekiti State, Nigeria',
 

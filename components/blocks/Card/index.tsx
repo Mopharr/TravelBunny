@@ -27,6 +27,7 @@ const Card = ({
         src={img}
         alt='city__image'
         className='absolute w-[100%] h-[100%] object-cover rounded-xl shadow'
+        fill
       />
     </div>
     <div className='text-base space-y-[0.5rem] mb-2'>

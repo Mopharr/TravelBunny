@@ -1,5 +1,9 @@
 import React from 'react';
-import { BsFillShareFill, BsFillBookmarkFill } from 'react-icons/bs';
+import {
+  BsFillShareFill,
+  BsFillBookmarkFill,
+  BsFillCircleFill,
+} from 'react-icons/bs';
 import { GrLocation } from 'react-icons/gr';
 import { AiFillStar, AiOutlineCheckCircle } from 'react-icons/ai';
 import Nav from '../components/blocks/NavBar/index';
@@ -107,6 +111,33 @@ const Details = () => (
                   nisi
                 </p>
               </div>
+            </div>
+            <div className='mb-4 space-y-2'>
+              <div className='flex items-center justify-start space-x-4 text-2xl font-semibold'>
+                <h4>Security Review</h4>
+                <BsFillCircleFill color='green' />
+              </div>
+              <p>
+                A green dot means that this location is safe for tourist visits.
+                Our Artificial Intelligence algorithm has been able to gather
+                accurate information about this location around the web.
+              </p>
+            </div>
+            <div className='my-12 space-y-8'>
+              <div className='space-y-2'>
+                <h4 className='text-2xl font-semibold'>Virtual Tour</h4>
+                <p>
+                  If you are not sure about visiting this location, you can take
+                  a virtual tour to see all the beautiful things around.
+                </p>
+              </div>
+
+              <button
+                type='button'
+                className='text-[#FF385C] border-[#FF385C] border-2 px-8 py-2 rounded-lg font-semibold text-lg'
+              >
+                Go on Virtual Tour
+              </button>
             </div>
           </div>
           <div className={style.rright}>

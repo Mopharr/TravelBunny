@@ -73,7 +73,7 @@ const Group = () => (
               <div className='grid grid-cols-1 gap-x-6 gap-y-6 sm:grid-cols-3'>
                 <div className='flex items-center justify-start space-x-2'>
                   <AiOutlineCheckCircle size={30} />{' '}
-                  <span className='text-sm'>Private Swimming Pool</span>
+                  <span className='text-sm'>Rock Climbing</span>
                 </div>
                 <div className='flex items-center justify-start space-x-2'>
                   <AiOutlineCheckCircle size={30} />{' '}

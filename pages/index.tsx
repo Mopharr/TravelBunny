@@ -1,96 +1,66 @@
-import Image from "next/image";
-import { useState } from "react";
-import Link from "next/link";
-import dynamic from "next/dynamic";
-import PageHead from "../components/utils/PageHead";
-import NavBar from "../components/blocks/NavBar";
-import { cities, groupTrips } from "../components/utils/travelBunnyData";
-import style from '../styles/details.module.css'
+import Head from 'next/head';
+import Link from 'next/link';
+import PageHead from '../components/utils/PageHead';
+import style from '../styles/create.module.css';
 
-const Card = dynamic(() => import("../components/blocks/Card"));
-const GroupCard = dynamic(() => import("../components/blocks/Card/GroupCard"));
-
-const Home = () => (
+const SignUp = () => (
   <div>
-    <PageHead title="Travel Bunny" />
-    <div>
-      <NavBar />
-      <main className="container mx-auto my-4 main">
-        <div className="px-6 my-8 cities lg:px-0">
-          <div className="flex items-center justify-between heading">
-            <h1 className="text-xl font-semibold">Explore cities</h1>
-            <Link
-              href="/all-cities"
-              className="text-sm text-[#FF385C] hover:underline hover:text-[#FF385C]"
-            >
-              See all
-            </Link>
-          </div>
-          <div className="grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-4 my-14">
-            {cities.map(
-              ({
-                id,
-                img,
-                resortName,
-                resortLocation,
-                resortRating,
-                hasRating,
-              }: any) => (
-                <Card
-                  key={id}
-                  img={img}
-                  resortName={resortName}
-                  resortLocation={resortLocation}
-                  resortRating={resortRating}
-                  hasRating={hasRating}
-                />
-              )
-            )}
-          </div>
-        </div>
-        <div className="px-6 my-20 cities lg:px-0">
-          <div className="flex items-center justify-between heading">
-            <h1 className="text-xl font-semibold">Group Trips</h1>
-            <Link
-              href="/all-cities"
-              className="text-sm text-[#FF385C] hover:text-[#FF385C] hover:underline"
-            >
-              See all
-            </Link>
-          </div>
-          <div className="grid grid-cols-1 gap-8 lg:grid-cols-2 my-14">
-            {groupTrips.map(
-              ({
-                id,
-                img,
-                resortName,
-                resortDescription,
-                resortLocation,
-                resortPrice,
-                tourDate,
-                tourAgent,
-              }) => (
-                <GroupCard
-                  key={id}
-                  img={img}
-                  resortName={resortName}
-                  resortDescription={resortDescription}
-                  resortLocation={resortLocation}
-                  resortPrice={resortPrice}
-                  tourDate={tourDate}
-                  tourAgent={tourAgent}
-                />
-              )
-            )}
-          </div>
-        </div>
-      </main>
+    <PageHead title='Sign Up | travel Bunny' />
 
-      <div className={style.plus}>
-                <p>+</p>
+    <main className={style.main}>
+      <div className={style.rightBa}>
+        <div className={style.right}>
+          <Link href='/' className={style.logo}>
+            <img src='/logo.png' alt='logo' /> <span>TravelBunny</span>
+          </Link>
+
+          <h2>Create a TravelBunny account</h2>
+          <p className=''>
+            Explore beautiful locations around the world and organize trips with
+            friends, and friendly strangers.
+          </p>
+
+          <div className={style.input}>
+            <input
+              type='text'
+              placeholder='Username'
+              className='text-base placeholder:text-base'
+            />
+          </div>
+          <div className={style.input}>
+            <input
+              type='email'
+              placeholder='Email'
+              className='text-base placeholder:text-base'
+            />
+          </div>
+          <div className={style.input}>
+            <input
+              type='text'
+              placeholder='Password'
+              className='text-base placeholder:text-base'
+            />
+          </div>
+
+          <button type='button' className='mb-4'>
+            <Link href='/login'>Create Account</Link>
+          </button>
+          <p className={style.login}>
+            Don&lsquo;t have a TravelBunny <br /> account?
+            <Link
+              className={`underline hover:underline ${style.loginC}`}
+              href='/login'
+            >
+              Login
+            </Link>
+          </p>
+        </div>
       </div>
-    </div>
+      <div className={style.leftBa}>
+        <img src='/tra3.png' alt='' />
+      </div>
+    </main>
   </div>
 );
 
-export default Home;
+export default SignUp;

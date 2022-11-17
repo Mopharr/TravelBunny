@@ -26,7 +26,6 @@
   align-items: center;
   justify-content: space-between;
   flex-wrap: wrap;
-
 }
 .in {
   width: 480px;
@@ -76,16 +75,15 @@
     margin: auto;
   }
   .in {
-      width: 400px;
+    width: 400px;
   }
 }
 
 @media (max-width: 840px) {
-      .in {
-      width: 100%;
+  .in {
+    width: 100%;
   }
-  .in button{
-      width: 100%;
+  .in button {
+    width: 100%;
   }
 }
-

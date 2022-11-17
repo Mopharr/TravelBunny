@@ -35,12 +35,18 @@ const Login = () => (
             />
           </div>
 
-          <button type='button'>
-            <Link href='/dashboard'>Login</Link>
-          </button>
+          <Link
+            href='/dashboard'
+            className='py-4 my-8 text-xl font-semibold text-center text-white bg-black rounded-lg hover:text-white'
+          >
+            Login
+          </Link>
           <p className={style.login}>
-            Don&lsquo;t have a TravelBunny <br /> account?
-            <Link className={style.loginC} href='/signup'>
+            Don&lsquo;t have a TravelBunny <br /> account?{' '}
+            <Link
+              className={`underline hover:underline ${style.loginC}`}
+              href='/'
+            >
               Sign up for free
             </Link>
           </p>

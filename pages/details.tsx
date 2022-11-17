@@ -1,5 +1,9 @@
 import React from 'react';
-import { BsFillShareFill, BsFillBookmarkFill } from 'react-icons/bs';
+import {
+  BsFillShareFill,
+  BsFillBookmarkFill,
+  BsFillCircleFill,
+} from 'react-icons/bs';
 import { GrLocation } from 'react-icons/gr';
 import { AiFillStar, AiOutlineCheckCircle } from 'react-icons/ai';
 import Nav from '../components/blocks/NavBar/index';
@@ -34,7 +38,7 @@ const Details = () => (
             </div>
 
             <div className={style.desc}>
-              <h2>Organizer</h2>
+              <h2>Description</h2>
               <p>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Rutrum
                 viverra tellus, amet proin in semper arcu. Leo quis vitae
@@ -47,67 +51,93 @@ const Details = () => (
             </div>
 
             <div className={style.drop}>
-              <h2>Organizer</h2>
-              <div className={style.pla}>
-                <div className={style.pText}>
-                  <AiOutlineCheckCircle className={style.Icon} />{' '}
-                  <span>Warm water swimming pool</span>
+              <h2>Attractions</h2>
+              <div className='grid grid-cols-1 gap-x-4 gap-y-6 sm:grid-cols-3'>
+                <div className='flex items-center justify-start space-x-2'>
+                  <AiOutlineCheckCircle size={30} />{' '}
+                  <span className='text-sm'>Private Swimming Pool</span>
                 </div>
-                <div className={style.pText}>
-                  <AiOutlineCheckCircle className={style.Icon} />{' '}
-                  <span>Restaurant</span>
+                <div className='flex items-center justify-start space-x-2'>
+                  <AiOutlineCheckCircle size={30} />{' '}
+                  <span className='text-sm'>Restaurant</span>
                 </div>
-                <div className={style.pText}>
-                  <AiOutlineCheckCircle className={style.Icon} />{' '}
-                  <span>Car Park</span>
+                <div className='flex items-center justify-start space-x-2'>
+                  <AiOutlineCheckCircle size={30} />{' '}
+                  <span className='text-sm'>Car Park</span>
                 </div>
-                <div className={style.pText}>
-                  <AiOutlineCheckCircle className={style.Icon} />{' '}
-                  <span>Warm water swimming pool</span>
+                <div className='flex items-center justify-start space-x-2'>
+                  <AiOutlineCheckCircle size={30} />{' '}
+                  <span className='text-sm'>Paint Ball</span>
                 </div>
-                <div className={style.pText}>
-                  <AiOutlineCheckCircle className={style.Icon} />{' '}
-                  <span>Restaurantl</span>
+                <div className='flex items-center justify-start space-x-2'>
+                  <AiOutlineCheckCircle size={30} />{' '}
+                  <span className='text-sm'>Games Night</span>
                 </div>
-                <div className={style.pText}>
-                  <AiOutlineCheckCircle className={style.Icon} />{' '}
-                  <span>Car Park</span>
+                <div className='flex items-center justify-start space-x-2'>
+                  <AiOutlineCheckCircle size={30} />{' '}
+                  <span className='text-sm'>Ferris Wheel</span>
                 </div>
               </div>
             </div>
             <div className={style.drop}>
-              <h2>Review (67)</h2>
+              <h2>Reviews</h2>
+              <div>
+                <div className={style.orgaN}>
+                  <img src='/tra1.png' alt='' />
+                  <div className={style.name}>
+                    <p>David Adewale</p>
+                    <span>22, October 2022</span>
+                  </div>
+                </div>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur. Eget porttitor neque
+                  pellentesque diam. Felis nunc scelerisque nibh enim nec mi
+                  viverra diam risus. Laoreet lacus dui vel nisl suspendisse
+                  nisi
+                </p>
+              </div>
+              <div>
+                <div className={style.orgaN}>
+                  <img src='/tra1.png' alt='' />
+                  <div className={style.name}>
+                    <p>David Adewale</p>
+                    <span>22, October 2022</span>
+                  </div>
+                </div>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur. Eget porttitor neque
+                  pellentesque diam. Felis nunc scelerisque nibh enim nec mi
+                  viverra diam risus. Laoreet lacus dui vel nisl suspendisse
+                  nisi
+                </p>
+              </div>
+            </div>
+            <div className='mb-4 space-y-2'>
+              <div className='flex items-center justify-start space-x-4 text-2xl font-semibold'>
+                <h4>Security Review</h4>
+                <BsFillCircleFill color='green' />
+              </div>
+              <p>
+                A green dot means that this location is safe for tourist visits.
+                Our Artificial Intelligence algorithm has been able to gather
+                accurate information about this location around the web.
+              </p>
+            </div>
+            <div className='my-12 space-y-8'>
+              <div className='space-y-2'>
+                <h4 className='text-2xl font-semibold'>Virtual Tour</h4>
+                <p>
+                  If you are not sure about visiting this location, you can take
+                  a virtual tour to see all the beautiful things around.
+                </p>
+              </div>
 
-              <div>
-                <div className={style.orgaN}>
-                  <img src='/tra1.png' alt='' />
-                  <div className={style.name}>
-                    <p>David Adewale</p>
-                    <span>22, October 2022</span>
-                  </div>
-                </div>
-                <p>
-                  Lorem ipsum dolor sit amet consectetur. Eget porttitor neque
-                  pellentesque diam. Felis nunc scelerisque nibh enim nec mi
-                  viverra diam risus. Laoreet lacus dui vel nisl suspendisse
-                  nisi{' '}
-                </p>
-              </div>
-              <div>
-                <div className={style.orgaN}>
-                  <img src='/tra1.png' alt='' />
-                  <div className={style.name}>
-                    <p>David Adewale</p>
-                    <span>22, October 2022</span>
-                  </div>
-                </div>
-                <p>
-                  Lorem ipsum dolor sit amet consectetur. Eget porttitor neque
-                  pellentesque diam. Felis nunc scelerisque nibh enim nec mi
-                  viverra diam risus. Laoreet lacus dui vel nisl suspendisse
-                  nisi{' '}
-                </p>
-              </div>
+              <button
+                type='button'
+                className='text-[#FF385C] border-[#FF385C] border-2 px-8 py-2 rounded-lg font-semibold text-lg hover:bg-[#ff385c] hover:text-white'
+              >
+                Go on Virtual Tour
+              </button>
             </div>
           </div>
           <div className={style.rright}>
